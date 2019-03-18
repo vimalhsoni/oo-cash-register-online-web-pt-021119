@@ -14,7 +14,7 @@ def add_item(item, price, quantity = 0)
   @total = @total + price
   else
     @total = @total + price * quantity
-    final_transaction = @total
+    @final_transaction = @total
     @total
     i = 0
     while i<quantity
