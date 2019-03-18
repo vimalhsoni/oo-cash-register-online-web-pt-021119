@@ -25,7 +25,7 @@ end
 end
 
 def apply_discount
-  if @discount == nil
+  if @discount == 0
     return "There is no discount to apply."
   else
   percentage = @discount.to_f/100
